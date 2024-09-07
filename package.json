@@ -37,5 +37,10 @@
     "testPathIgnorePatterns": [
       "generators/"
     ]
+  },
+  "tsconfig": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
